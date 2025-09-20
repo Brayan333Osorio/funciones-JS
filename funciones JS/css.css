@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212; /* Fondo oscuro */
+  color: #e0e0e0; /* Texto claro */
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Títulos grandes con estilo neón */
+h1 {
+  color: #ff00dd;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 12px;
+  text-shadow: 0 0 10px #ea00ff;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+nav {
+  background: linear-gradient(90deg, #270f24, #43202d, #642c5b);
+  border-radius: 0 0 15px 15px;
+  padding: 12px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(255, 0, 212, 0.3);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #f700ff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  background-color: #f700ff;
+  color: #121212;
+  box-shadow: 0 0 8px #ff00dd;
+}
+
+
+section {
+  padding: 50px 25px;
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(30, 30, 30, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(4, 0, 255, 0.2);
+}
+
+
+h2 {
+  border-bottom: 3px solid #eff3f3;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(225, 0, 255, 0.4);
+  transition: transform 0.3s ease;
+}
+
+img:hover, video:hover {
+  transform: scale(1.05);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background: #fa6ddb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(188, 204, 203, 0.712);
+}
+
+th, td {
+  border: 1px solid #535353;
+  padding: 12px 15px;
+  text-align: left;
+  color: #b93bb3;
+}
+
+th {
+  background-color: #003f4a;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #142c30;
+}
+
+
+p {
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-size: 1.05em;
+  color: #ffffff;
+}
